@@ -1,6 +1,6 @@
 ---
 title: "About"
-permalink: /
+permalink: /about/
 layout: single
 author_profile: true
 ---
@@ -16,21 +16,11 @@ Hi, I’m **Junteng Liu**. I’m a first-year PhD candidate at the **HKUST NLP G
 - **Research Intern**, Tencent WXG (Jun 2024–Sep 2024)
 - **Research Intern**, Shanghai AI Lab (Jun 2023–Dec 2023)
 
-## Publications
-{% include base_path %}
-
-{% if site.publications and site.publications.size > 0 %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% else %}
-  <p>Selected highlights:</p>
-  <ul>
-    <li><em>SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond</em> (2025), first author</li>
-    <li><em>On the Perception Bottleneck of VLMs for Chart Understanding</em> (2025), first author</li>
-    <li><em>On the Universal Truthfulness Hyperplane Inside LLMs</em> (EMNLP 2024), first author</li>
-  </ul>
-{% endif %}
+## Selected publications
+- *SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond* (2025), first author
+- *On the Perception Bottleneck of VLMs for Chart Understanding* (2025), first author
+- *On the Universal Truthfulness Hyperplane Inside LLMs* (EMNLP 2024), first author
+- Co-author on works including ICML 2024 and NeurIPS 2023 publications
 
 ## Contact
 - **Email:** jliugi@connect.ust.hk
