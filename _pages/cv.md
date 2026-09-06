@@ -1,64 +1,32 @@
 ---
-layout: archive
 title: "CV"
 permalink: /cv/
+layout: single
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+## Summary
+PhD candidate at HKUST NLP Group working on NLP and machine learning. Research interests include LLM reasoning, reinforcement learning, truthfulness and interpretability, and hallucination in vision-language models.
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
+- **Ph.D. in Computer Science**, Hong Kong University of Science and Technology (2024–Present)
+- **B.Eng.**, Shanghai Jiao Tong University (2020–2024)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Research experience
+- **Research Intern**, MINIMAX (Feb 2025–Present)
+- **Research Intern**, Tencent WXG (Jun 2024–Sep 2024)
+- **Research Intern**, Shanghai AI Lab (Jun 2023–Dec 2023)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Publications (high level)
+- *SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond* (2025), first author
+- *On the Perception Bottleneck of VLMs for Chart Understanding* (2025), first author
+- *On the Universal Truthfulness Hyperplane Inside LLMs* (EMNLP 2024), first author
+- Co-author on works including ICML 2024 and NeurIPS 2023 publications
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Skills
+Research areas: natural language processing, machine learning, LLM reasoning, reinforcement learning, interpretability, vision-language models
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Contact
+- **Email:** jliugi@connect.ust.hk
+- **GitHub:** https://github.com/Vicent0205
+- **Google Scholar:** https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate
